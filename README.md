@@ -9,3 +9,8 @@ These are classes that build on top of the functionality and abstractions that c
 
 The main interface class Utility exposes all other helper and utility classes. This is done purely out of convinience for the developer. All utility classes are initiated in the interface class constructor and thus available when the document is opened.
 This allows the develper to refer them in the debug console and in any other class just by navigating through Util.<class>.
+  
+The only utility class specific to MS Access is UtilAccess.cls, however it uses other general utility class that have also been included in the ms-office-excel-utilities repository.
+
+There are currently different versions of the general utility classes becuase the the repositories were not related up to now.
+A merge of the general utility classes is on the agenda and will most probalby be available as a seperate repository.
